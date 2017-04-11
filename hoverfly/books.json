@@ -1,0 +1,67 @@
+{
+	"data": {
+		"pairs": [
+			{
+				"response": {
+					"status": 200,
+					"body": "[\n    {\n        \"book_id\": \"1\",\n        \"title\": \"JavaScript and JSON Essentials\",\n        \"author\": \"Sai Srinivas Sriparasa\",\n        \"edition\": \"Packt\"\n    },\n    {\n        \"book_id\": \"2\",\n        \"title\": \"RESTful Web APIs\",\n        \"author\": \"Leonard Richardson\",\n        \"edition\": \"Oreilly\"\n    },\n    {\n        \"book_id\": \"3\",\n        \"title\": \"toto\",\n        \"author\": \"tutu\",\n        \"edition\": \"Sun Edition\"\n    },\n    {\n        \"book_id\": \"4\",\n        \"title\": \"toto\",\n        \"author\": \"tutu\",\n        \"edition\": \"Sun Edition\"\n    }\n]",
+					"encodedBody": false,
+					"headers": {
+						"Cf-Ray": [
+							"34de305f309f637f-FRA"
+						],
+						"Connection": [
+							"keep-alive"
+						],
+						"Content-Type": [
+							"application/json"
+						],
+						"Date": [
+							"Tue, 11 Apr 2017 13:10:58 GMT"
+						],
+						"Hoverfly": [
+							"Was-Here"
+						],
+						"Server": [
+							"cloudflare-nginx"
+						],
+						"Set-Cookie": [
+							"__cfduid=df07c33d4b25c2d292217b337dfdecb791491916257; expires=Wed, 11-Apr-18 13:10:57 GMT; path=/; domain=.fanaticaltest.com; HttpOnly"
+						],
+						"X-Powered-By": [
+							"PHP/7.0.16"
+						]
+					}
+				},
+				"request": {
+					"path": {
+						"exactMatch": "/api/listBooks.php"
+					},
+					"method": {
+						"exactMatch": "GET"
+					},
+					"destination": {
+						"exactMatch": "localhost"
+					},
+					"scheme": {
+						"exactMatch": "http"
+					},
+					"query": {
+						"exactMatch": ""
+					},
+					"body": {
+						"exactMatch": ""
+					}
+				}
+			}
+		],
+		"globalActions": {
+			"delays": []
+		}
+	},
+	"meta": {
+		"schemaVersion": "v2",
+		"hoverflyVersion": "v0.10.2",
+		"timeExported": "2017-04-11T15:10:58+02:00"
+	}
+}
