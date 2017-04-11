@@ -10,7 +10,7 @@ This exemple is moking the service ft-demo-website `https://github.com/Fanatical
 If you install the service and you run `sh record-service.sh`, you will get a json file that could be reuse to mock the service in simulation mode.
 
 ## Playback service
-Run `sh playback.sh`
+Run `sh playback-service.sh`
 
 Test `curl http://localhost:8500/api/listBooks.php`
 
